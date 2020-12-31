@@ -25,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,         _________________COLEMAK_L1________________, _________________COLEMAK_R1________________, KC_LBRC, KC_RBRC, KC_BSLS,
         KC_BSPC,        _________________COLEMAK_L2________________, _________________COLEMAK_R2________________, KC_QUOT,          KC_ENT,
         TD(TD_CAPS),    XXXXXXX, _________________COLEMAK_L3________________, _________________COLEMAK_R3________________, KC_RSFT, MO(_FN),
-        KC_LCTL,        KC_LGUI, KC_LALT,                   KC_SPC,  MO(_FN),  KC_SPC,           KC_RCTL, KC_RALT, XXXXXXX, KC_RGUI, KC_HYPR
+        KC_LCTL,        KC_LGUI, KC_LALT,                   KC_SPC,  MO(_FN),  KC_SPC,           KC_RCTL, KC_RGUI, XXXXXXX, KC_RALT, KC_HYPR
     ),
 
     [_QW] = LAYOUT_wrapped (
@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,         _________________QWERTY_L1_________________, _________________QWERTY_L1_________________, KC_LBRC, KC_RBRC, KC_BSLS,
         KC_BSPC,        _________________QWERTY_L2_________________, _________________QWERTY_L2_________________, KC_QUOT,          KC_ENT,
         TD(TD_CAPS),    XXXXXXX, _________________QWERTY_L3_________________, _________________QWERTY_L3_________________, KC_RSFT, MO(_FN),
-        KC_LCTL,        KC_LGUI, KC_LALT,                   KC_SPC,  MO(_FN),  KC_SPC,           KC_RCTL, KC_RALT, XXXXXXX, KC_RGUI, KC_HYPR
+        KC_LCTL,        KC_LGUI, KC_LALT,                   KC_SPC,  MO(_FN),  KC_SPC,           KC_RCTL, KC_RGUI, XXXXXXX, KC_RALT, KC_HYPR
     ),
 
     [_FN] = LAYOUT_wrapped (

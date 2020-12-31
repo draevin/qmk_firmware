@@ -25,14 +25,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_MPRV,         KC_MNXT, KC_TAB,      _________________COLEMAK_L1________________, _________________COLEMAK_R1________________, KC_LBRC, KC_RBRC, KC_BSLS, KC_HOME,
     KC_F15,          KC_F16,  KC_BSPC,     _________________COLEMAK_L2________________, _________________COLEMAK_R2________________, KC_QUOT, KC_ENT,  KC_END,
     KC_F17,          KC_F18,  TD(TD_CAPS), _________________COLEMAK_L3________________, _________________COLEMAK_R3________________, KC_RSFT, KC_UP,   MO(_FN),
-    KC_F19,          KC_F20,  KC_LCTL,     KC_LGUI, KC_LALT, MO(_FN), KC_SPC,           XXXXXXX, KC_SPC,  KC_RCTL, KC_RALT, KC_RGUI, KC_LEFT, KC_DOWN, KC_RGHT
+    KC_F19,          KC_F20,  KC_LCTL,     KC_LGUI, KC_LALT, MO(_FN), KC_SPC,           XXXXXXX, KC_SPC,  KC_RCTL, KC_RGUI, KC_RALT, KC_LEFT, KC_DOWN, KC_RGHT
   ),
   [_QW] = LAYOUT_65wm_wrapped(
     HYPR_T(KC_MPLY), KC_ESC,  KC_GRV,      ________________NUMBER_LEFT________________, ________________NUMBER_RIGHT_______________, KC_MINS, KC_EQL,  XXXXXXX, KC_BSPC, KC_DEL,
     KC_MPRV,         KC_MNXT, KC_TAB,      _________________QWERTY_L1_________________, _________________QWERTY_L1_________________, KC_LBRC, KC_RBRC, KC_BSLS, KC_HOME,
     KC_F15,          KC_F16,  KC_BSPC,     _________________QWERTY_L2_________________, _________________QWERTY_L2_________________, KC_QUOT, KC_ENT,  KC_END,
     KC_F17,          KC_F18,  TD(TD_CAPS), _________________QWERTY_L3_________________, _________________QWERTY_L3_________________, KC_RSFT, KC_UP,   MO(_FN),
-    KC_F19,          KC_F20,  KC_LCTL,     KC_LGUI, KC_LALT, MO(_FN), KC_SPC,           XXXXXXX, KC_SPC,  KC_RCTL, KC_RALT, KC_RGUI, KC_LEFT, KC_DOWN, KC_RGHT
+    KC_F19,          KC_F20,  KC_LCTL,     KC_LGUI, KC_LALT, MO(_FN), KC_SPC,           XXXXXXX, KC_SPC,  KC_RCTL, KC_RGUI, KC_RALT, KC_LEFT, KC_DOWN, KC_RGHT
   ),
   [_FN] = LAYOUT_65wm_wrapped(
     _______,         _______, _______,     _________________FROW_LEFT_________________, _________________FROW_RIGHT________________, KC_F11,  KC_F12,  XXXXXXX, _______, _______,
