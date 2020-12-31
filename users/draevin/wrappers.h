@@ -43,6 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define ___________________FN_L1___________________   _______, _______, KC_WH_U, _______, BRCPAIR
 #define ___________________FN_L2___________________   KC_HOME, _______, KC_WH_D, _______, PRNPAIR
+#define ___________________FN_L3___________________   KC_TILD, _______, _______, _______, _______
 
 #define ___________________FN_R1___________________   KC_RBRC, _______, KC_UP,   _______, _______
 #define ___________________FN_R2___________________   KC_RPRN, KC_LEFT, KC_DOWN, KC_RGHT, KC_END
